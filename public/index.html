@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Video Chat</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h1>Video Chat</h1>
+    <p>Connect with others by sharing the URL of this page.</p>
+    <div id="localVideoContainer">
+        <video id="localVideo" autoplay aria-label="Local Video"></video>
+        <p id="localUsername">You</p>
+    </div>
+    <div id="remoteVideos" aria-label="Remote Videos"></div>
+    <button id="muteButton">Mute</button>
+    <button id="hangupButton">Hang Up</button>
+
+    <script src="main.js"></script>
+</body>
+</html>
